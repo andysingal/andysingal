@@ -20,16 +20,16 @@
    <!--Front End-->
 ```mermaid
 graph TD;
-    Front-End-->Flask;
-    Front-End-->Django;
-    Front-End-->PyTorch;
-    Front-End-->Machine_Learning;
-    Front-End-->Deep_Learning;
-    Front-End-->Tensorflow;
-    Front-End-->Streamlit;
-    Front-End-->Spark;
-    Front-End-->NLP;
-    Front-End-->Computer_viasion ;
+    Data-Scientist-->Flask;
+    Data-Scientist-->Django;
+    Data-Scientist-->PyTorch;
+    Data-Scientist-->Machine_Learning;
+    Data-Scientist-->Deep_Learning;
+    Data-Scientist-->Tensorflow;
+    Data-Scientist-->Streamlit;
+    Data-Scientist-->Spark;
+    Data-Scientist-->NLP;
+    Data-Scientist-->Computer_viasion ;
    ```
    
  <!--Coordenadas  - My Home-->
