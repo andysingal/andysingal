@@ -4,6 +4,13 @@
 
 This is my github repo where I keep some of my personal projects and presentations while exploring various topics in Data science.![](https://komarev.com/ghpvc/?username=andysingal)
 
+
+If you are interested in more details 
+PS: 
+- 👨‍💻 You can also find me on Twitter [(@andysingal)](https://twitter.com/andysingal)
+- 🖇️ LinkedIn [in/ankushsingal](https://www.linkedin.com/in/ankushsingal/)
+
+
 <!--Graph-->
 ![Ankush's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=andysingal&bg_color=0d1117&color=ffffff&line=00b3ff&point=f9fafa&area=true&hide_border=true)
 
