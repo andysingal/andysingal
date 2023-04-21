@@ -1,6 +1,9 @@
 
 <!--Title @andysingal-->
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=00b3ff&size=35&center=true&vCenter=true&width=1000&lines=HELLO👋;I'm+from+USA;Welcome!)
+<br>
+<h4 align="center"><i>Data Science Manager 🌱 Mindful Explorer 🌱 Traveller</i></h4>
+<br>
 
 This is my github repo where I keep some of my personal projects and presentations while exploring various topics in Data science.![](https://komarev.com/ghpvc/?username=andysingal)
 
