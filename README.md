@@ -12,6 +12,7 @@ If you are interested in more details
 PS: 
 - 👨‍💻 You can also find me on Twitter [(@andysingal)](https://twitter.com/andysingal)
 - 🖇️ LinkedIn [in/ankushsingal](https://www.linkedin.com/in/ankushsingal/)
+- Kaggle [AndySingal](https://www.kaggle.com/alphasingal)
 
 
 <!--Graph-->
