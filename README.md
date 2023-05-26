@@ -16,7 +16,7 @@ PS:
 
 
 <!--Graph-->
-![Ankush's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=andysingal&bg_color=0d1117&color=ffffff&line=00b3ff&point=f9fafa&area=true&hide_border=true)
+![Ankush's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=andysingal&bg_color=0d1117&color=ffffff&line=00b3ff&point=f9fafa&area=true&hide_border=true)
 
 <!--Skill And More Information--> 
 <div align="center">  
