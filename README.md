@@ -82,7 +82,7 @@ graph TD;
   
 <!--- Country ---> 
 <a href="https://github.com/andysingal"><img src="https://s01.flagcounter.com/countxl/41uN/bg_0D1117/txt_FFFFFF/border_0D1117/columns_8/maxflags_250/viewers_3/labels_1/pageviews_0/flags_0/percent_1/" alt="@andysingal" border="0"></a>
-  
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/andysingal)
 
 
 
