@@ -82,6 +82,15 @@ graph TD;
   
 <!--- Country ---> 
 <a href="https://github.com/andysingal"><img src="https://s01.flagcounter.com/countxl/41uN/bg_0D1117/txt_FFFFFF/border_0D1117/columns_8/maxflags_250/viewers_3/labels_1/pageviews_0/flags_0/percent_1/" alt="@andysingal" border="0"></a>
+
+<p align="left">
+<h3 align="left">Connect with me:</h3>
+<a href="mailto:andysingal@gmail.com" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/gmail.svg" alt="hai.alimustofa@gmail.com" height="30" width="40" /></a>
+<a href="https://twitter.com/andysingal" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="Alimustoofaa" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/ankushsingal" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="ali-mustofa-778b9a189" height="30" width="40" /></a>
+<a href="https://web.facebook.com/andyartistry.2023/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="hai.alimustoofaa" height="30" width="40" /></a>
+</p>
+
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/andysingal)
 
 
