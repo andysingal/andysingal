@@ -14,6 +14,7 @@ PS:
 - 🖇️ LinkedIn [in/ankushsingal](https://www.linkedin.com/in/ankushsingal/)
 - Medium [(@andysingal)](https://medium.com/@andysingal)
 - Kaggle [AndySingal](https://www.kaggle.com/alphasingal)
+- Patreon [AndyShanu](https://www.patreon.com/AndyShanu)
 
 
 <!--Graph-->
