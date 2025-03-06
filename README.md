@@ -8,8 +8,7 @@
 This is my github repo where I keep some of my personal projects and presentations while exploring various topics in Data science.![](https://komarev.com/ghpvc/?username=andysingal)
 
 
-If you are interested in more details 
-PS: 
+If you are interested in more details , please support if you like the content [Paypal](https://paypal.me/alphasingal?country.x=US&locale.x=en_US): 
 - 👨‍💻 You can also find me on Twitter [(@andysingal)](https://twitter.com/andysingal)
 - 🖇️ LinkedIn [in/ankushsingal](https://www.linkedin.com/in/ankushsingal/)
 - Medium [(@andysingal)](https://medium.com/@andysingal)
