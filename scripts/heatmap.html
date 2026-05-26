@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
 
@@ -7,12 +8,12 @@
   <script src="https://d3js.org/d3.v7.min.js"></script>
 
   <!-- Cal Heatmap -->
-  <script src="https://cdn.jsdelivr.net/npm/cal-heatmap/dist/cal-heatmap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/cal-heatmap@4.2.4/dist/cal-heatmap.min.js"></script>
 
-  <!-- Cal Heatmap CSS -->
+  <!-- CSS -->
   <link
     rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/cal-heatmap/dist/cal-heatmap.css"
+    href="https://cdn.jsdelivr.net/npm/cal-heatmap@4.2.4/dist/cal-heatmap.css"
   />
 
   <style>
@@ -29,77 +30,72 @@
     }
 
     #cal-heatmap {
-      overflow-x: auto;
-    }
-
-    svg {
-      background-color: #0d1117;
+      width: 100%;
     }
   </style>
 </head>
 
 <body>
 
-<h2>AndySingal Contribution Heatmap</h2>
+  <h2>AndySingal Contribution Heatmap</h2>
 
-<div id="cal-heatmap"></div>
+  <div id="cal-heatmap"></div>
 
-<script>
-  const cal = new CalHeatmap();
+  <script>
+    const cal = new CalHeatmap();
 
-  // Generate fake data
-  const data = [];
+    // Create sample data
+    const data = {};
 
-  const start = new Date("2025-01-01");
+    const startDate = new Date("2025-01-01");
 
-  for (let i = 0; i < 365; i++) {
-    const date = new Date(start);
+    for (let i = 0; i < 365; i++) {
+      const date = new Date(startDate);
 
-    date.setDate(start.getDate() + i);
+      date.setDate(startDate.getDate() + i);
 
-    data.push({
-      date: date.toISOString(),
-      value: Math.floor(Math.random() * 10)
-    });
-  }
+      const timestamp = Math.floor(date.getTime() / 1000);
 
-  cal.paint({
-    itemSelector: "#cal-heatmap",
-
-    range: 12,
-
-    domain: {
-      type: "month",
-      gutter: 8,
-    },
-
-    subDomain: {
-      type: "day",
-      width: 14,
-      height: 14,
-      gutter: 2,
-      radius: 2
-    },
-
-    date: {
-      start: new Date("2025-01-01")
-    },
-
-    data: {
-      source: data,
-      x: "date",
-      y: "value"
-    },
-
-    scale: {
-      color: {
-        type: "linear",
-        range: ["#161b22", "#00b3ff"],
-        domain: [0, 10]
-      }
+      data[timestamp] = Math.floor(Math.random() * 10);
     }
-  });
-</script>
+
+    cal.paint({
+      itemSelector: "#cal-heatmap",
+
+      domain: {
+        type: "month",
+        gutter: 8
+      },
+
+      subDomain: {
+        type: "day",
+        width: 14,
+        height: 14,
+        gutter: 3,
+        radius: 2
+      },
+
+      range: 12,
+
+      date: {
+        start: new Date("2025-01-01")
+      },
+
+      data: {
+        source: data,
+        type: "json"
+      },
+
+      scale: {
+        color: {
+          type: "linear",
+          range: ["#161b22", "#00b3ff"],
+          domain: [0, 10]
+        }
+      }
+    });
+  </script>
 
 </body>
+
 </html>
