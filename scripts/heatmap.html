@@ -3,28 +3,37 @@
 <head>
   <meta charset="UTF-8" />
 
-  <!-- D3.js -->
+  <!-- D3 -->
   <script src="https://d3js.org/d3.v7.min.js"></script>
 
   <!-- Cal Heatmap -->
-  <script src="https://unpkg.com/cal-heatmap/dist/cal-heatmap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/cal-heatmap/dist/cal-heatmap.min.js"></script>
 
   <!-- Cal Heatmap CSS -->
   <link
     rel="stylesheet"
-    href="https://unpkg.com/cal-heatmap/dist/cal-heatmap.css"
+    href="https://cdn.jsdelivr.net/npm/cal-heatmap/dist/cal-heatmap.css"
   />
 
   <style>
     body {
-      background: #0d1117;
+      background-color: #0d1117;
       color: white;
-      font-family: Arial;
+      font-family: Arial, sans-serif;
       padding: 40px;
     }
 
     h2 {
       color: #00b3ff;
+      margin-bottom: 30px;
+    }
+
+    #cal-heatmap {
+      overflow-x: auto;
+    }
+
+    svg {
+      background-color: #0d1117;
     }
   </style>
 </head>
@@ -38,14 +47,18 @@
 <script>
   const cal = new CalHeatmap();
 
-  // Generate sample data
+  // Generate fake data
   const data = [];
 
-  for (let i = 1; i <= 365; i++) {
-    const date = new Date(2025, 0, i);
+  const start = new Date("2025-01-01");
+
+  for (let i = 0; i < 365; i++) {
+    const date = new Date(start);
+
+    date.setDate(start.getDate() + i);
 
     data.push({
-      date: date.toISOString().split('T')[0],
+      date: date.toISOString(),
       value: Math.floor(Math.random() * 10)
     });
   }
@@ -57,18 +70,14 @@
 
     domain: {
       type: "month",
-      gutter: 6,
-      label: {
-        text: "MMM",
-        position: "top"
-      }
+      gutter: 8,
     },
 
     subDomain: {
       type: "day",
       width: 14,
       height: 14,
-      gutter: 3,
+      gutter: 2,
       radius: 2
     },
 
