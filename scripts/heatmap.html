@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+
+  <!-- D3.js -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+  <!-- Cal Heatmap -->
+  <script src="https://unpkg.com/cal-heatmap/dist/cal-heatmap.min.js"></script>
+
+  <!-- Cal Heatmap CSS -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/cal-heatmap/dist/cal-heatmap.css"
+  />
+
+  <style>
+    body {
+      background: #0d1117;
+      color: white;
+      font-family: Arial;
+      padding: 40px;
+    }
+
+    h2 {
+      color: #00b3ff;
+    }
+  </style>
+</head>
+
+<body>
+
+<h2>AndySingal Contribution Heatmap</h2>
+
+<div id="cal-heatmap"></div>
+
+<script>
+  const cal = new CalHeatmap();
+
+  // Generate sample data
+  const data = [];
+
+  for (let i = 1; i <= 365; i++) {
+    const date = new Date(2025, 0, i);
+
+    data.push({
+      date: date.toISOString().split('T')[0],
+      value: Math.floor(Math.random() * 10)
+    });
+  }
+
+  cal.paint({
+    itemSelector: "#cal-heatmap",
+
+    range: 12,
+
+    domain: {
+      type: "month",
+      gutter: 6,
+      label: {
+        text: "MMM",
+        position: "top"
+      }
+    },
+
+    subDomain: {
+      type: "day",
+      width: 14,
+      height: 14,
+      gutter: 3,
+      radius: 2
+    },
+
+    date: {
+      start: new Date("2025-01-01")
+    },
+
+    data: {
+      source: data,
+      x: "date",
+      y: "value"
+    },
+
+    scale: {
+      color: {
+        type: "linear",
+        range: ["#161b22", "#00b3ff"],
+        domain: [0, 10]
+      }
+    }
+  });
+</script>
+
+</body>
+</html>
