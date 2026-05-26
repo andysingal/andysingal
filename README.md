@@ -45,6 +45,17 @@ graph TD;
     Data-Scientist-->NLP;
     Data-Scientist-->Computer_viasion ;
    ```
+
+<!-- Custom Cal Heatmap -->
+## 📅 Custom Contribution Heatmap
+
+<p align="center">
+  <img src="./assets/cal-heatmap.svg" width="1000"/>
+</p>
+
+<p align="center">
+  <i>Custom yearly activity visualization built using Cal-Heatmap + D3.js</i>
+</p>
    
  <!--Coordenadas  - My Home-->
   
